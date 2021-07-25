@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@font-face {
+    font-family: 'Nico-Moji';
+    src:url('./fonts/nico-moji/Nico-Moji.ttf.woff') format('woff'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.svg#Nico-Moji') format('svg'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d9e4dd;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.3;
+}
+
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+li {
+    display: inline;
+}
+
+
+header {
+    background: rgb(223,175,255);
+    background: linear-gradient(47deg, rgba(223,175,255,1) 0%, rgba(255,53,53,1) 50%, rgba(255,188,95,1) 100%);
+    color: #f8f1f1;
+    padding: 200px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.upper-title {
+    font-size: 17px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.true-title {
+    line-height: 0.2;
+}
+
+.button {
+    padding: 50px;
+}
+
+.button-register {
+    padding: 0;
+}
+
+.button-register-down {
+    padding: 50px;
+}
+
+.title {
+    font-family: 'Nico-Moji';
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+.digi-btn {
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    padding: 14px;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    transition: 0.2s;
+}
+
+.digi-btn-reg {
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    padding: 14px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(30, 53, 255);
+    transition: 0.2s;
+}
+
+.digi-btn-reg:hover {
+    background-color: rgb(0, 26, 255); 
+}
+
+.digi-btn:hover {
+    background-color: white;
+    color: rgba(255,53,53,1);
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.info {
+    font-size: 14px;
+    background-color: whitesmoke;
+    opacity: 50%;
+    padding: 2px;
+    
+}
+
+#About {
+    text-align: left;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    line-height: 1.5;
+}
+
+.about-title {
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+}
+
+.about-content {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.digifest-blue {
+    color: rgb(0, 102, 255);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 450px;
+    text-align: center;
+}
+
+.card {
+    margin: 6px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border-style: solid;
+    border-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+.card-now {
+    border-color: red;
+    color: red;
+}
+
+.card-time {
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-content {
+    font-weight: 600;
+}
+
+#Event {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.col-event {
+    flex-basis: 250px;
+    text-align: left;
+}
+
+.event-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-event {
+    margin: 6px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#Register {
+    background: rgb(116,107,255);
+    background: linear-gradient(90deg, rgba(116,107,255,1) 0%, rgba(154,154,255,1) 35%, rgba(0,212,255,1) 100%);
+    color: #f8f1f1;
+    padding: 250px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.register-title {
+    font-family: 'Nico-Moji';
+    font-weight: 600;
+}
+
+.register-subtitle {
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+
+.time {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.a {
+    color: rgb(173, 0, 0);
+}
+
+.r {
+    color: rgb(116,107,255);
+}
+
+.w {
+    color: #FF5F6D;
+}
+
+.i {
+    color: #4CA1AF;
+}
+
+#Workshop {
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f8f1f1;
+    padding: 250px;
+    font-size: 40px;
+    text-align: left;
+}
+
+#Interview {
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f8f1f1;
+    padding: 250px;
+    font-size: 40px;
+    text-align: left;
+}
+
+#Program {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+#Developer {
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.d {
+    color: #C33764;
+}
+
+#Creative {
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    line-height: 1.5;
+    text-align: right;
+}
+
+#More {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+#Regbutton {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    header {
+        background: rgb(223,175,255);
+        background: linear-gradient(47deg, rgba(223,175,255,1) 0%, rgba(255,53,53,1) 50%, rgba(255,188,95,1) 100%);
+        color: #f8f1f1;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: left;
+        
+    }
+
+    .upper-title {
+        font-size: 17px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    
+    .true-title {
+        line-height: 0.5;
+    }
+    
+    .button {
+        padding: 0px;
+    }
+    
+    .title {
+        font-family: 'Nico-Moji';
+        font-weight: 500;
+    }
+    
+    .subtitle {
+        font-size: 12px;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 600;
+        margin-bottom: 100px;
+    }
+    
+    .digi-btn {
+        font-size: 14px;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: 600;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        transition: 0.2s;
+    }
+
+    .button-register {
+        margin-top: 50px;
+    }
+    
+
+    #About {
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+        line-height: 1.5;
+    }
+
+    .about-title {
+        font-size: 25px;
+        color: rgb(65, 65, 65);
+    }
+    
+    .about-content {
+        font-family: 'M PLUS Rounded 1c', sans-serif;;
+        font-size: 30px;
+        font-weight: 700;
+        max-width: 100%;
+    }
+
+    #Event {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    #Register {
+        background: rgb(116,107,255);
+        background: linear-gradient(90deg, rgba(116,107,255,1) 0%, rgba(154,154,255,1) 35%, rgba(0,212,255,1) 100%);
+        color: #f8f1f1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #Workshop {
+        background: #FF5F6D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #f8f1f1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    #Interview {
+        background: #4CA1AF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #f8f1f1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    #Program {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+    }
+    
+    #Developer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    #Creative {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+        line-height: 1.5;
+        text-align: left;
+    }
+    
+    #More {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+    }
+
+    #Regbutton {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+    }
+    
+    footer {
+        background-color: rgb(231, 231, 231);
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+        background-color: whitesmoke;
+    }
+}
