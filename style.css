@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    line-height: 1.2;
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: whitesmoke;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+li {
+    display: inline;
+}
+
+h1, h2, h3 {
+    color: rgb(68, 68, 68);
+}
+
+.navbar {
+    padding-top: 2px;
+    padding-top: 2px;
+    font-size: 20px;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar-right {
+    float: right;
+}
+
+.nav-item > a {
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item > a:hover {
+    color: #056674;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container-sm {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.row-l {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.col, .col-md, .col-xl, .col-sm, .col-l {
+    margin-bottom: 50px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.col-xl {
+    width: 100%;
+}
+
+.col-l {
+    width: 70%;
+}
+
+.col-md {
+    width: 32%;
+}
+
+.col-sm {
+    width: 30%;
+}
+
+a > .col-sm {
+    color: black;
+}
+
+.card, .card-faq, .card-detail {
+    background-color: white;
+    transition: 0.3s;
+}
+
+.card, .card-detail {
+    width: 95%;
+}
+
+.card-detail {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.card-faq {
+    width: 100%;
+    font-size: 22px;
+}
+
+.card:hover, .card-faq:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-content {
+    padding: 2px 16px;
+  }
+
+.card-img {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+}
+
+.btn {
+    color: white;
+    background-color: #056674;
+    padding: 8px 0 8px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #014853;
+}
+
+.card-banner, .card-banner-faq, .card-banner-about {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    line-height: 1.5;
+    
+    background-repeat: no-repeat;
+}
+
+.card-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://cdn.discordapp.com/attachments/616638914530246656/869770600263069736/bookshelf.png");
+    background-position: top;
+}
+
+.card-banner-faq {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media.discordapp.net/attachments/616638914530246656/869788220077015050/gruvbox_image4.png");
+    background-position: center bottom 20%;
+}
+
+.card-banner-about {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media.discordapp.net/attachments/616638914530246656/869798676745306132/wall_secondary.png");
+    background-position: center top 10%;
+}
+
+.card-banner > p,.card-banner > h1, .card-banner-faq > h1, .card-banner-about > h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+footer {
+   width: 100%;
+   padding-top: 50px;
+   background-color: rgb(223, 223, 223);
+   color: rgb(68, 68, 68);
+   font-size: 25px;
+}
+
+@media screen and (min-width: 540px) and (max-width: 1366px) {
+    .container-sm {
+        padding-right: 100px;
+        padding-left: 100px;
+    }  
+    
+    .col-sm {
+        width: 30%;
+    }
+
+    .card-img {
+        height: 12vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .top {
+        margin-top: 80px;
+    }
+    .container {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .nav-item > a {
+        visibility: hidden;
+        color: black;
+        font-weight: 600;
+    }
+    
+    .container-sm {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .row-l {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .col, .col-md,  .col-sm, .col-l {
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    
+    .col-xl {
+        width: 100%;
+    }
+
+    .card, .card-detail {
+        background-color: white;
+        width:100%;
+        transition: 0.3s;
+    }
+
+    .card-img {
+        height: 50vw;
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .card-faq {
+        width: 100%;
+        font-size: 18px;
+    }
+
+}
+
+
+    

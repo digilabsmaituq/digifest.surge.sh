@@ -278,6 +278,44 @@ header {
     text-align: left;
 }
 
+.btn {
+    font-size: 20px;
+    background-color: white;
+    color: #FF5F6D;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.blue-fluent {
+    color: rgb(116,107,255);
+}
+
+.btn-dark-orange {
+    font-size: 20px;
+    color: white;
+    background-color: #a8313b;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.btn-dark-blue {
+    font-size: 20px;
+    color: white;
+    background-color: #26727e;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.btn:hover, .btn-dark-orange:hover, .btn-dark-blue:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 #Interview {
     background: #4CA1AF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -286,6 +324,10 @@ header {
     padding: 250px;
     font-size: 40px;
     text-align: left;
+}
+
+.blue {
+    color: #4CA1AF;
 }
 
 #Program {
@@ -461,8 +503,8 @@ footer {
         color: #f8f1f1;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         max-width: 100%;
         height: auto;
         font-size: 20px;
@@ -476,8 +518,8 @@ footer {
         color: #f8f1f1;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         max-width: 100%;
         height: auto;
         font-size: 20px;
@@ -491,8 +533,8 @@ footer {
         color: #f8f1f1;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         max-width: 100%;
         height: auto;
         font-size: 20px;
@@ -564,7 +606,7 @@ footer {
         background-color: rgb(231, 231, 231);
         text-align: center;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         padding-left: 30px;
         padding-right: 30px;
         max-width: 100%;
@@ -572,5 +614,9 @@ footer {
         font-size: 20px;
         font-family: 'Varela Round', sans-serif;
         background-color: whitesmoke;
+    }
+
+    .footnote {
+        font-size: 12px;
     }
 }

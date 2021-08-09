@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Nico-Moji';
+    src:url('./fonts/nico-moji/Nico-Moji.ttf.woff') format('woff'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.svg#Nico-Moji') format('svg'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot'),
+        url('./fonts/nico-moji/Nico-Moji.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    line-height: 1.2;
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: whitesmoke;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+li {
+    display: inline;
+}
+
+.w {
+    color: #FF5F6D;
+}
+
+.register-title {
+    font-size: 30px;
+    margin-bottom: -32px;
+}
+
+.register-subtitle {
+    font-size: 48px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
+
+.time {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.register-sub-subtitle {
+    font-size: 22px;
+}
+
+.mt-32 {
+    margin-top: -48px;
+}
+
+.mt-20 {
+    margin-top: -20px;
+}
+
+.register-time {
+    font-size: 20px;
+    background-color: white;
+    color: #fc8791;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+#Workshop {
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f8f1f1;
+    padding: 250px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#About {
+    text-align: left;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    line-height: 1.5;
+}
+
+.about-title {
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+}
+
+.about-content {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.digifest-blue {
+    color: #FF5F6D;
+}
+
+#Event {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+#Details {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+#Register {
+    text-align: center;
+    font-size: 28px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 320px;
+    text-align: center;
+}
+
+.col-l {
+    flex-basis: 600px;
+    text-align: left;
+}
+
+.col-xl {
+    flex-basis: 900px;
+    text-align: left;
+}
+
+.col-s {
+    flex-basis: 40px;
+    text-align: center;
+}
+
+
+.card {
+    margin: 6px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border-style: solid;
+    border-color: white;
+}
+
+.card-link {
+    margin: 6px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+}
+
+.card-detail {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card:hover, .card-link:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-title {
+    font-size: 48px;
+    margin-bottom: -10px;
+    color: tomato;
+}
+
+.card-content {
+    font-size: 20px;
+    color: #2a2a2a;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.orange {
+    color: tomato;
+}
+
+.tag {
+    margin-bottom: -2.6rem;
+    font-size: 16px;
+}
+
+.tag-content {
+    font-weight: 600;
+    background-color: rgb(194, 194, 194);
+    padding: 2px 8px 2px 8px;
+    border-radius: 30px;
+}
+
+ul {
+    margin-left: -2.5rem;
+}
+
+#More {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    header {
+        background: rgb(223,175,255);
+        background: linear-gradient(47deg, rgba(223,175,255,1) 0%, rgba(255,53,53,1) 50%, rgba(255,188,95,1) 100%);
+        color: #f8f1f1;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: left;
+        
+    }
+
+    .mt-32 {
+        margin-top: auto;
+    }
+
+    .upper-title {
+        font-size: 17px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    
+    
+    #About {
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+        line-height: 1.5;
+    }
+
+
+
+    .about-title {
+        font-size: 25px;
+        color: rgb(65, 65, 65);
+    }
+    
+    .about-content {
+        font-family: 'M PLUS Rounded 1c', sans-serif;;
+        font-size: 30px;
+        font-weight: 700;
+        max-width: 100%;
+    }
+
+    #Event {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+
+    #Register {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 22px;
+    }
+
+    #Workshop {
+        background: #FF5F6D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF5F6D, #FFC371);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF5F6D, #FFC371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #f8f1f1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #Details {
+        text-align: center;
+        font-size: 30px;
+        max-width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+        max-width: 100%;
+        margin-bottom: -5rem;
+        height: auto;
+        background-color: whitesmoke;
+    }
+    
+    .card-detail {
+        margin-bottom: 30px;
+        background-color: white;
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        transition: 0.2s;
+        border-style: solid;
+        border-color: white;
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    .tag {
+        margin-bottom: auto;
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 32px;
+        margin-bottom: -10px;
+        color: tomato;
+        width: 100%;
+    }
+
+    .card-subtitle {
+        font-size: 20px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    .card-content {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .col-xl {
+        width: 100%;
+    }
+
+    .emoji {
+        font-size: 50px;
+    }
+
+    #More {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 30px;
+        background-color: whitesmoke;
+    }
+    
+    
+    footer {
+        background-color: rgb(231, 231, 231);
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        height: auto;
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+        background-color: whitesmoke;
+    }
+
+    .footnote {
+        font-size: 12px;
+    }
+}
