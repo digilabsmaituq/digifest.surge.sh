@@ -238,7 +238,7 @@ header {
     font-weight: 600;
 }
 
-.register-subtitle {
+.register-subtitle, .notice {
     font-size: 32px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 600;
@@ -524,6 +524,10 @@ footer {
         height: auto;
         font-size: 20px;
         text-align: left;
+    }
+
+    .notice {
+        font-size: 14px;
     }
     
     #Interview {
